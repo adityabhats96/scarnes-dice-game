@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.hp.dicegame.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Your Score :"
+        android:id="@+id/myScoreTextView"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Computer&apos;s Score :"
+        android:id="@+id/computerScoreTextView"
+        android:layout_alignTop="@+id/myScoreTextView"
+        android:layout_toEndOf="@+id/myScoreTextView"
+        android:layout_marginStart="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dieImageView"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/dice1"
+        android:layout_below="@+id/computerScoreTextView"
+        android:layout_alignEnd="@+id/resetButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rollButton"
+        android:text="roll"
+        android:layout_below="@id/dieImageView"
+        android:clickable="false" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/holdButton"
+        android:text="hold"
+        android:layout_below="@id/dieImageView"
+        android:layout_toRightOf="@id/rollButton"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resetButton"
+        android:text="reset"
+        android:layout_below="@id/dieImageView"
+        android:layout_toRightOf="@id/holdButton"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/TurnScoreTextView"
+        android:layout_below="@+id/myScoreTextView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="17dp"
+        android:layout_toStartOf="@+id/dieImageView" />
+
+</RelativeLayout>

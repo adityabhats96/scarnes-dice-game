@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Adi\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_de8bfc98586904d78fd3d95e6183858a0658c1c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.2.0_6c63ab22cbfecc2f1edf3fac5395746af4b616e6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_b84667c5e594a800b38a77fb7c9f2c96de735c13.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_47a998d6de0ffaaf2bd7b135a00791c3df7451e5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.2.0_767c3001730aeec917f2fc6f97568242077f3864.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_cbf25c717b8068c68b330c1f4bd168e145636dc4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_dfef64e5d1201fab9de73320f3a58f896c022a61.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\Adi\AndroidStudioProjects\DiceGame\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_3d174a93efa8af985c1d5c1eefc2fc6e423725d0.jar" />
+    </item>
+
+</items>
